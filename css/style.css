@@ -1,0 +1,9 @@
+.navbar, .dropdown-menu {
+    background-color: rgb(232,48,70);
+}
+.navbar a, #drop{
+    color: white ;
+}
+.dropdown-item:hover {
+    color: rgb(232,48,70);
+}
