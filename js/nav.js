@@ -2,7 +2,7 @@ document.body.innerHTML+='\
 <nav class="navbar navbar-expand-lg fixed-top">\
         <div class="container-fluid">\
             <a class="navbar-brand ms-3" href="index.html">\
-                <img src="img/teamcreja.png"  height="60px"alt="">\
+                <img src="img/teamcreja.png"  height="40px"alt="">\
                 Team Cherry\
             </a>\
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">\
@@ -16,8 +16,11 @@ document.body.innerHTML+='\
                     <li class="nav-item">\
                     <a class="nav-link" href="sobre.hmtl">Sobre Nós</a>\
                     </li>\
-                    <li class="nav-item">\
-                    <a class="nav-link" href="loja.htlm">Loja</a>\
+                    <li class="nav-item " >\
+                    <a class="nav-link" href="loja.html">Loja</a>\
+                    </li>\
+                    <li class="nav-item " id="contato">\
+                    <a class="nav-link" href="contacto.html">Contato</a>\
                     </li>\
                     <li class="nav-item dropdown me-3">\
                     <a class="nav-link dropdown-toggle" id="drop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">\
