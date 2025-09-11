@@ -30,3 +30,23 @@ body {
     height: 150px;
     background: linear-gradient( #ff0f0f00, #ffffff9a); 
 }
+.centro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.redondo {
+    border-radius: 50%;/*faz a borda ficar arredondada*/
+    object-fit: cover;/*faz a imagem cobrir todo o circulo*/
+    aspect-ratio: 1/1;/*faz a imagem n ficar distorcida com o objectfit e o border radius*/
+    border:3px solid #0f0f1b;/*explicado anteriormente*/
+}
+.lateral {
+    width: 100%;
+    display: flex;
+}
+.time {
+    height:200px;
+}
