@@ -53,9 +53,16 @@ body {
     height:200px;
 }
 footer{
-    position: relative;/* Ajuste a posição em relação ao elemento pai */
-    background-color:  rgb(232,48,70);; /* Cor semi-transparente para ver o efeito */
+    position: relative;
+    background-color:  rgb(232,48,70);; 
     width: 100%;
-    height: 150px; /* Espaçamento interno */
-    z-index: 10; /* Aumente o z-index para garantir que fique acima */
+    height: 150px; 
+    z-index: 10; 
+    color: white;
+}
+.breadcrumb a{
+    color: white;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
 }

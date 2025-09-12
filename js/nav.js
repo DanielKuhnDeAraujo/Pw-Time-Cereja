@@ -14,7 +14,7 @@ document.body.innerHTML+='\
                     <a class="nav-link " aria-current="page" href="index.html">Home</a>\
                     </li>\
                     <li class="nav-item">\
-                    <a class="nav-link" href="sobre.html">Sobre Nós</a>\
+                    <a class="nav-link" href="sobre.html">Sobre </a>\
                     </li>\
                     <li class="nav-item " >\
                     <a class="nav-link" href="loja.html">Loja</a>\
