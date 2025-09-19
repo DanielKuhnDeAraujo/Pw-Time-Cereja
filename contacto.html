@@ -18,6 +18,118 @@
                 <h1>FALE CONOSCO</h1>
             </div>
             <p>Tem uma pergunta sobre nossas políticas de streaming ou de produtos para fãs? Quer fazer uma doação? Está procurando um estágio? Temos algumas respostas para perguntas frequentes em nosso <a href="faq.html">FAQ!</a></p>
+            <p>Se a sua pergunta não está lá, quiser reportar um bug, ou só conversar mesmo, use o formulário abaixo</p>
+            <hr>
+            <form class="row g-3 needs-validation border border-dark p-2 rounded" novalidate>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Digite seu nome.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02"  required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Digite seu sobrenome.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="validationCustom02" value="Otto" required>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                    <div class="invalid-feedback">
+                        Digite um email válido.
+                    </div>
+                    <div class="valid-feedback">
+                        Tudo certo!
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Por favor, insira uma cidade válida.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom04" class="form-label">Estado</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Selecione...</option>
+                        <option>Acre</option>
+                        <option>Alagoas</option>
+                        <option>Amapá</option>
+                        <option>Amazonas</option>
+                        <option>Bahia</option>
+                        <option>Ceará</option>
+                        <option>Distrito Federal</option>
+                        <option>Espírito Santo</option>
+                        <option>Goiás</option>
+                        <option>Maranhão</option>
+                        <option>Mato Grosso</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Minas Gerais</option>
+                        <option>Pará</option>
+                        <option>Paraíba</option>
+                        <option>Paraná</option>
+                        <option>Pernambuco</option>
+                        <option>Piauí</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Rio Grande do Norte</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Rondônia</option>
+                        <option>Roraima</option>
+                        <option>Santa Catarina</option>
+                        <option>São Paulo</option>
+                        <option>Sergipe</option>
+                        <option>Tocantins</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Selecione um estado.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                    <label for="dateInput">Dia de Nascimento:</label>
+                    <input type="date" class="form-control" id="dateInput">
+                    <div class="invalid-feedback">
+                        Por favor, insira uma data válida.
+                    </div>
+                    </div>
+                </div>
+                <fieldset class="border border-dark rounded">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                        <label class="form-check-label" for="checkDefault">
+                            Hollow Knight
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                        <label class="form-check-label" for="checkChecked">
+                            Hollow Knight: Silksong
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                        <label class="form-check-label" for="checkChecked">
+                            Hungry Knight
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="col-md-12">
+                    <button class="btn btn-danger" type="submit">Submit form</button>
+                </div>
+            </form>
         </section>
         <script src="js/footer.js"></script>
         <script src="js/validation.js"></script>
