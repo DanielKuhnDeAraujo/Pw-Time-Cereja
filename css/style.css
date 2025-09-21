@@ -66,3 +66,24 @@ footer{
 .breadcrumb-item + .breadcrumb-item::before {
   color: white;
 }
+.linha
+{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 2px;
+}
+.imagem
+{
+    width:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+br
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
