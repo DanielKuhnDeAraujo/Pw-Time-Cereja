@@ -32,6 +32,24 @@ body {
     background: linear-gradient( #ff0f0f00, #ffffff9a); 
     z-index: 1;
 }
+.fadish1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    background: linear-gradient(180deg, #ff0f0f00, #ffffff9a);
+    z-index: 1;
+    pointer-events: none;
+}
+.fadish2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    background: linear-gradient(0deg, #ff0f0f00, #ffffff9a);
+    z-index: 1;
+    pointer-events: none;
+}
 .centro {
     width: 100%;
     display: flex;
@@ -86,4 +104,29 @@ br
 {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.col-degrade
+{
+    position: absolute;
+}
+.banner-container
+{
+    position: relative;
+}
+.banner
+{
+    margin-top: -15px;
+    width:100%;
+    object-fit: cover;
+    height: auto;
+}
+.conteudo
+{
+    margin-top: 30px;
+}
+.titulo
+{
+    position: absolute;
+    width: 50%;
+    height: auto;
 }
