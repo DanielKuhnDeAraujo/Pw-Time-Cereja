@@ -18,12 +18,12 @@
                 <h1>FALE CONOSCO</h1>
             </div>
             <p>Tem uma pergunta sobre nossas políticas de streaming ou de produtos para fãs? Quer fazer uma doação? Está procurando um estágio? Temos algumas respostas para perguntas frequentes em nosso <a href="faq.html">FAQ!</a></p>
-            <p>Se a sua pergunta não está lá, quiser reportar um bug, ou só conversar mesmo, use o formulário abaixo</p>
+            <p>Se a sua pergunta não está lá, quiser reportar um bug, ou só conversar mesmo, use o formulário abaixo :</p>
             <hr>
-            <form class="row g-3 needs-validation border border-dark p-2 rounded" novalidate>
+            <form action="dados.html" method="get" class="row g-3 needs-validation border border-dark p-2 rounded" novalidate>
                 <div class="col-md-4">
                     <label for="validationCustom01" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <input type="text" class="form-control"  name="nome" id="validationCustom01" required>
                     <div class="valid-feedback">
                         Tudo certo!
                     </div>
@@ -49,9 +49,6 @@
                     </div>
                     <div class="invalid-feedback">
                         Digite um email válido.
-                    </div>
-                    <div class="valid-feedback">
-                        Tudo certo!
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -106,48 +103,84 @@
                     </div>
                     </div>
                 </div>
-                <fieldset class="border border-dark rounded">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                        <label class="form-check-label" for="checkDefault">
-                            Hollow Knight
-                        </label>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <fieldset class="border border-dark rounded m-3 p-2">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                    <label class="form-check-label" for="checkDefault">
+                                        Hollow Knight
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                                    <label class="form-check-label" for="checkChecked">
+                                        Hollow Knight: Silksong
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                                    <label class="form-check-label" for="checkChecked">
+                                        Hungry Knight
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <fieldset class="border border-dark rounded m-3 p-2">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                    <label class="form-check-label" for="radioDefault1">
+                                        Homem
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                    <label class="form-check-label" for="radioDefault2">
+                                        Mulher
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                    <label class="form-check-label" for="radioDefault2">
+                                        Prefiro não dizer
+                                    </label>
+                                </div>
+                                
+                            </fieldset>
+                            <fieldset class="border border-dark rounded m-3 p-2">
+                                <label for="range4" class="form-label">Sua nota para nossos jogos :</label>
+                                <input type="range" class="form-range" min="0" max="10" value="5" step="1" id="range4">
+                                <output for="range4" id="rangeValue" aria-hidden="true"></output>
+
+                                <script>
+                                    // This is an example script, please modify as needed
+                                    const rangeInput = document.getElementById('range4');
+                                    const rangeOutput = document.getElementById('rangeValue');
+
+                                    // Set initial value
+                                    rangeOutput.textContent = rangeInput.value;
+
+                                    rangeInput.addEventListener('input', function() {
+                                        rangeOutput.textContent = this.value;
+                                    });
+                                </script>
+                            </fieldset>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating m-3" >
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"  style="height: 400px; resize: none;" required></textarea>
+                                    <label for="floatingTextarea"> Escreva aqui sua mensagem</label>
+                                    <div class="invalid-feedback">
+                                        Escreva sua mensagem.
+                                    </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-                        <label class="form-check-label" for="checkChecked">
-                            Hollow Knight: Silksong
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-                        <label class="form-check-label" for="checkChecked">
-                            Hungry Knight
-                        </label>
-                    </div>
-                </fieldset>
-                <fieldset class="border border-dark rounded">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
-                        <label class="form-check-label" for="radioDefault1">
-                            Homem
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-                        <label class="form-check-label" for="radioDefault2">
-                            Mulher
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-                        <label class="form-check-label" for="radioDefault2">
-                            Prefiro não dizer
-                        </label>
-                    </div>
-                </fieldset>
+                </div>
+                
+                
                 <div class="col-md-12">
-                    <button class="btn btn-danger" type="submit">Submit form</button>
+                    <button class="btn btn-danger" type="submit">Enviar</button>
                 </div>
             </form>
         </section>
