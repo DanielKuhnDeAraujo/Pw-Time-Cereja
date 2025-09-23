@@ -126,9 +126,15 @@ br
 }
 .titulo
 {
-    position: absolute;
-    top:450px;
-    left: 25%;
+    margin-top: 3%;
+    margin-left: 25%;
     width: 50%;
     height: auto;
+}
+.poster
+{
+    margin-top: -15px;
+}
+h1{
+    margin-bottom: 20px;
 }
