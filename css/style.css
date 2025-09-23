@@ -127,6 +127,8 @@ br
 .titulo
 {
     position: absolute;
+    top:450px;
+    left: 25%;
     width: 50%;
     height: auto;
 }
