@@ -9,3 +9,12 @@ h1 {
 a {
     color: rgb(232,48,70);
 }
+#floatingTextarea {
+    height: 325px ; 
+    resize: none ; 
+}
+@media (max-width: 600px) {
+    #floatingTextarea {
+        height: 225px ; 
+    }
+}
