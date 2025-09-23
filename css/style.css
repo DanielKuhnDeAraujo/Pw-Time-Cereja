@@ -167,3 +167,13 @@ h1{
     overflow: hidden;
     text-align: center;
 }
+.arredondado
+{
+    border-radius: 20px;
+    background-color: white;
+    border:rgb(255, 255, 255) 2px solid;
+    overflow: hidden;
+    text-align: center;
+    max-width: 50%;
+    max-height: 300px;
+}
