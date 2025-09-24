@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+p
+{
+color: white;
+}
+b
+{
+color: white;
+}
+.fadis {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 150px;
+    background: linear-gradient( #ff0f0f00, #000000d5); 
+}

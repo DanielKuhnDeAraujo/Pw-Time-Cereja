@@ -19,45 +19,14 @@
 .dropdown-item:hover {
     color: rgb(232,48,70);
 }
-body {
-    overflow-x: hidden;
-    padding-top: 80px;
-    background-color: black;
-}
-p
-{
-color: white;
-}
-b
-{
-color: white;
-}
 .fadis {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%; 
     height: 150px;
-    background: linear-gradient( #ff0f0f00, #000000d5); 
+    background: linear-gradient( #ff0f0f00, #ffffffd5); 
     z-index: 1;
-}
-.fadish1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20%;
-    background: linear-gradient(180deg, #ff0f0f00, #ffffff9a);
-    z-index: 1;
-    pointer-events: none;
-}
-.fadish2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 20%;
-    background: linear-gradient(0deg, #ff0f0f00, #ffffff9a);
-    z-index: 1;
-    pointer-events: none;
 }
 .centro {
     width: 100%;
@@ -181,9 +150,7 @@ li
 {
     color: white;
 }
-/* .carimg img{
-
-    height: 700px;
-    object-fit: cover;
-    object-position: center 25%;
-} */
+body {
+    overflow-x: hidden;
+    padding-top: 80px;
+}
