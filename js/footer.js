@@ -1,4 +1,4 @@
-document.body.innerHTML+='\
+document.body.innerHTML += '\
 <footer>\
         <div class="container">\
             <div class="row pt-4">\
@@ -24,6 +24,7 @@ document.body.innerHTML+='\
                     <nav style="--bs-breadcrumb-divider: "|";" aria-label="breadcrumb">\
                         <ol class="breadcrumb">\
                             <li class="breadcrumb-item"><a href="faq.html">FAQ</a></li>\
+                            <li class="breadcrumb-item">|</li>\
                             <li class="breadcrumb-item " ><a href="contacto.html">Contato</a></li>\
                         </ol>\
                     </nav>\
