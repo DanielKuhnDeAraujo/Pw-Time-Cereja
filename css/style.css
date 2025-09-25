@@ -154,3 +154,10 @@ body {
     overflow-x: hidden;
     padding-top: 80px;
 }
+.ul {
+  list-style-type: disc; /* bolinhas normais */
+  padding-left: 40px;   /* espaçamento padrão */   
+}
+.ul li {
+    color: black;
+}
