@@ -10,7 +10,6 @@ document.body.innerHTML += '\
                         <ol class="breadcrumb">\
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>\
                             <li class="breadcrumb-item " ><a href="sobre.html">Sobre</a></li>\
-                            <li class="breadcrumb-item " ><a href="loja.html">Loja</a></li>\
                             <li class="breadcrumb-item " ><a href="jogos.html">Jogos</a></li>\
                         </ol>\
                     </nav>\
