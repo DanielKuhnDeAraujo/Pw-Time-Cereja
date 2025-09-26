@@ -20,9 +20,9 @@
             <p>Tem uma pergunta sobre nossas políticas de streaming ou de produtos para fãs? Quer fazer uma doação? Está procurando um estágio? Temos algumas respostas para perguntas frequentes em nosso <a href="faq.html">FAQ!</a></p>
             <p>Se a sua pergunta não está lá, quiser reportar um bug, ou só conversar mesmo, use o formulário abaixo :</p>
             <hr>
-            <form action="dados.html" method="get" class="row g-3 needs-validation border border-dark p-2 rounded" novalidate>
+            <form action="" method="get" class="row g-3 needs-validation border border-dark p-2 rounded" novalidate>
                 <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">First name</label>
+                    <label for="validationCustom01" class="form-label">Nome</label>
                     <input type="text" class="form-control"  name="nome" id="validationCustom01" required>
                     <div class="valid-feedback">
                         Tudo certo!
@@ -32,8 +32,8 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="validationCustom02"  required>
+                    <label for="validationCustom02" class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" name="sobrenome" id="validationCustom02"  required>
                     <div class="valid-feedback">
                         Tudo certo!
                     </div>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-md-4">
                     <label for="validationCustom02" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="validationCustom02" value="Otto" required>
+                    <input type="email" name="email" class="form-control" id="validationCustom02" value="Otto" required>
                     <div class="valid-feedback">
                         Tudo certo!
                     </div>
@@ -52,15 +52,15 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <label for="validationCustom03" class="form-label">City</label>
-                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <label for="validationCustom03" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" name="cidade" id="validationCustom03" required>
                     <div class="invalid-feedback">
                         Por favor, insira uma cidade válida.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for="validationCustom04" class="form-label">Estado</label>
-                    <select class="form-select" id="validationCustom04" required>
+                    <select class="form-select" name="estado" id="validationCustom04" required>
                         <option selected disabled value="">Selecione...</option>
                         <option>Acre</option>
                         <option>Alagoas</option>
@@ -97,7 +97,7 @@
                 <div class="col-12">
                     <div class="form-group">
                     <label for="dateInput">Dia de Nascimento:</label>
-                    <input type="date" class="form-control" id="dateInput">
+                    <input type="date" name="data" class="form-control" id="dateInput" required>
                     <div class="invalid-feedback">
                         Por favor, insira uma data válida.
                     </div>
@@ -108,19 +108,19 @@
                         <div class="col-md-6 col-sm-12">
                             <fieldset class="border border-dark rounded m-3 p-2">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                    <input class="form-check-input" type="checkbox"  name="jogo1" value="hollow knight" id="checkDefault">
                                     <label class="form-check-label" for="checkDefault">
                                         Hollow Knight
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                                    <input class="form-check-input" type="checkbox" name="jogo2" value="silksong" id="checkChecked" checked>
                                     <label class="form-check-label" for="checkChecked">
                                         Hollow Knight: Silksong
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                                    <input class="form-check-input" type="checkbox" name="jogo3" value="hungry knight" id="checkChecked" checked>
                                     <label class="form-check-label" for="checkChecked">
                                         Hungry Knight
                                     </label>
@@ -128,19 +128,19 @@
                             </fieldset>
                             <fieldset class="border border-dark rounded m-3 p-2">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                    <input class="form-check-input" type="radio" name="radioDefault" value="homem" id="radioDefault1">
                                     <label class="form-check-label" for="radioDefault1">
                                         Homem
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                    <input class="form-check-input" type="radio"  value="mulher"  name="radioDefault" id="radioDefault2" checked>
                                     <label class="form-check-label" for="radioDefault2">
                                         Mulher
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                    <input class="form-check-input" type="radio" value="prefiro não dizer"  name="radioDefault" id="radioDefault2" checked>
                                     <label class="form-check-label" for="radioDefault2">
                                         Prefiro não dizer
                                     </label>
@@ -148,27 +148,13 @@
                                 
                             </fieldset>
                             <fieldset class="border border-dark rounded m-3 p-2">
-                                <label for="range4" class="form-label">Sua nota para nossos jogos :</label>
-                                <input type="range" class="form-range" min="0" max="10" value="5" step="1" id="range4">
-                                <output for="range4" id="rangeValue" aria-hidden="true"></output>
-
-                                <script>
-                                    // This is an example script, please modify as needed
-                                    const rangeInput = document.getElementById('range4');
-                                    const rangeOutput = document.getElementById('rangeValue');
-
-                                    // Set initial value
-                                    rangeOutput.textContent = rangeInput.value;
-
-                                    rangeInput.addEventListener('input', function() {
-                                        rangeOutput.textContent = this.value;
-                                    });
-                                </script>
+                                <label for="range4" class="form-label">Sua nota :</label>
+                                <input type="range" name="nota" class="form-range" min="0" max="10" value="5" step="1" id="range4">
                             </fieldset>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div class="form-floating m-3" >
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"  required></textarea>
+                                    <textarea name="msg" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"  required></textarea>
                                     <label for="floatingTextarea"> Escreva aqui sua mensagem</label>
                                     <div class="invalid-feedback">
                                         Escreva sua mensagem.
@@ -184,6 +170,7 @@
                 </div>
             </form>
         </section>
+        <script src="js/radio.js"></script>
         <script src="js/footer.js"></script>
         <script src="js/validation.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>

@@ -1,4 +1,4 @@
-document.body.innerHTML+='\
+document.body.innerHTML += '\
 <nav class="navbar navbar-expand-lg fixed-top">\
         <div class="container-fluid">\
             <a class="navbar-brand ms-3" href="index.html">\
@@ -15,9 +15,6 @@ document.body.innerHTML+='\
                     </li>\
                     <li class="nav-item">\
                     <a class="nav-link" href="sobre.html">Sobre </a>\
-                    </li>\
-                    <li class="nav-item " >\
-                    <a class="nav-link" href="loja.html">Loja</a>\
                     </li>\
                     <li class="nav-item " id="contato">\
                     <a class="nav-link" href="contacto.html">Contato</a>\
