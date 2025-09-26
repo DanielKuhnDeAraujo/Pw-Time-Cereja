@@ -112,11 +112,6 @@ br
 .navbar-toggler-icon {
   filter: brightness(0) invert(1);
 }
-@media (max-width: 600px) {
-    footer{
-        height: 270px; 
-    }
-}
 .poster
 {
     margin-top: -15px;
@@ -160,4 +155,12 @@ body {
 }
 .ul li {
     color: black;
+}
+@media (max-width: 600px) {
+    footer{
+        height: 270px; 
+    }
+    .carImg {
+        height: 200px;
+    }
 }
